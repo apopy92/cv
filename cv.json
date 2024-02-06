@@ -239,9 +239,9 @@
   ],
   "projects": [
     {
-      "name": "Prueba de Proyecto",
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
+      "name": "Inegtraciones con Canvas LMS",
+      "description": "Integracion de servicios de la nube AWS de CANVAS con el sistema core on premise de la compañia",
+      "highlights": ["Innovacion constante"],
       "url": "https://docs.astro.build/en/getting-started/"
     },
     {
