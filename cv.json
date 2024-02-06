@@ -240,14 +240,14 @@
   "projects": [
     {
       "name": "Inegtraciones con Canvas LMS",
-      "description": "Integracion de servicios de la nube AWS de CANVAS con el sistema core on premise de la compañia",
+      "description": "Integracion de servicios de la nube AWS de CANVAS a traves de APISREST con el sistema core on premise de la compañia",
       "highlights": ["Innovacion constante"],
       "url": "https://docs.astro.build/en/getting-started/"
     },
     {
-      "name": "AdventJS",
-      "description": "Otra descripcion de prueba",
-      "highlights": ["JavaScript & TypeScript"],
+      "name": "Facturacion Electronica",
+      "description": "Gestion del Proyecto para la implementacion con la SET ente regulador de impuestos para la generacion desde el sistema core de comprobantes electronicos",
+      "highlights": ["Finalizado"],
       "url": "https://nextjs.org/docs"
     }
   ]
