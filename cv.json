@@ -1,0 +1,254 @@
+{
+  "basics": {
+    "name": "Pedro Ruben Vallejos",
+    "label": "BI & Project Management Leader con +3 años de experiencia en Tecnología",
+    "image": "/me.webp",
+    "email": "apopy92@gmail.com",
+    "phone": "+595 971745670",
+    "url": "https://cvpedrovallejos.com",
+    "summary": "Proactivo, autodidacta, rápida comprensión de la unidad de negocio, busco la unión/entendimiento del equipo, sentido de la responsabilidad, leal, autocrítico, abierto a opiniones constructivas, enfocado en crecer como profesional y persona.",
+    "location": {
+      "address": "",
+      "postalCode": "1102",
+      "city": "Asunción",
+      "countryCode": "PY",
+      "region": "Paraguay"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "pedro-ruben-vallejos-medina-4303a1198",
+        "url": "https://www.linkedin.com/in/pedro-ruben-vallejos-medina-4303a1198"
+      },
+      {
+        "network": "X",
+        "username": "apopy92",
+        "url": "https://twitter.com/apopy92"
+      },
+      {
+        "network": "GitHub",
+        "username": "apopy92",
+        "url": "https://github.com/apopy92"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Élève",
+      "position": "BI & Project Management Leader",
+      "url": "https://www.eleve.com.py",
+      "startDate": "2022-11-01",
+      "endDate": null,
+      "summary": "Automatización de procesos operativos como inscripciones a plataformas virtuales, verificación, habilitación/inhabilitación de usuarios según el estado de cuenta, desinscripción automática de usuarios, optimización de tiempos de procesos automáticos que ya existían en la compañía, solución a problemas históricos de procesos automáticos los cuales sin documentación.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Global InfoContable",
+      "position": "Desarrollador Full Stack Jr",
+      "startDate": "2022-06-01",
+      "endDate": "2022-11-01",
+      "summary": "Desarrollo de soluciones a medida a través de webservices para empresas de diferentes rubros, desarrollo funciones, procedimientos PL/SQL en PostgreSQL, codificación de APIREST y métodos en backend con Java/JPA, desarrollo con Node.js, Angular.js, HTML, JavaScript, TypeScript y Bootstrap, desarrollo de reportes con JasperSoft.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "CLT",
+      "position": "QA Analyst",
+      "url": "https://www.clt.com.py",
+      "startDate": "2021-03-01",
+      "endDate": "2021-04-01",
+      "summary": "Garantía de calidad de software · Pruebas de aseguramiento de la calidad.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Roshka",
+      "position": "Tester QA",
+      "url": "https://www.roshka.com",
+      "startDate": "2020-10-01",
+      "endDate": "2021-03-01",
+      "summary": "Garantía de calidad de software · Pruebas de aseguramiento de la calidad.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "IT Alianza",
+      "position": "Tester QA",
+      "url": "https://italianza.com.py",
+      "startDate": "2020-02-01",
+      "endDate": "2020-10-01",
+      "summary": "Garantía de calidad de software · Pruebas de aseguramiento de la calidad.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Católica Nuestra Señora de la Asunción",
+      "url": "https://www.universidadcatolica.edu.py",
+      "area": "Análisis de sistemas informáticos",
+      "studyType": "Grado",
+      "startDate": "2018-01-01",
+      "endDate": "2021-01-01",
+      "score": "4.0",
+      "courses": []
+    },
+    {
+      "institution": "Instituto Técnico Superior en Telecomunicaciones (ITST)",
+      "url": "https://itst.edu.py",
+      "area": "Tecnología/Técnico de telecomunicaciones",
+      "studyType": "Técnico Supeiror",
+      "startDate": "2014-01-01",
+      "endDate": "2015-01-01",
+      "score": "4.0",
+      "courses": []
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "CSharp",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "Desarrollo de API"]
+    },
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "Desarrollo de API"]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "Análisis de datos"]
+    },
+    {
+      "name": "NodeJs",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "NestJs",
+      "level": "Avanzado",
+      "keywords": ["Backend", "Desarrollo de API", "Microservicios "]
+    },
+    {
+      "name": "AngularJs",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "Mysql",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Postgresql",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Oracle",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "SqlServer",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Canvas",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Prueba de Proyecto",
+      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "highlights": ["Elige tu propia aventura", "En desarrollo"],
+      "url": "https://docs.astro.build/en/getting-started/"
+    },
+    {
+      "name": "AdventJS",
+      "description": "Otra descripcion de prueba",
+      "highlights": ["JavaScript & TypeScript"],
+      "url": "https://nextjs.org/docs"
+    }
+  ]
+}

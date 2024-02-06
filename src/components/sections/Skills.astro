@@ -1,0 +1,61 @@
+---
+import { skills } from "@/cv";
+import Section from "@/components/Section.astro";
+import AngularJs from "@/icons/AngularJs.astro";
+import CSharp from "@/icons/CSharp.astro";
+import Canvas from "@/icons/Canvas.astro";
+import Git from "@/icons/Git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Java from "@/icons/Java.astro";
+import JavaScript from "@/icons/JavaScript.astro";
+import Mysql from "@/icons/Mysql.astro";
+import NestJs from "@/icons/NestJs.astro";
+import NodeJs from "@/icons/NodeJs.astro";
+import Oracle from "@/icons/Oracle.astro";
+import Postgresql from "@/icons/Postgresql.astro";
+import Python from "@/icons/Python.astro";
+import SqlServer from "@/icons/SqlServer.astro";
+import TypeScript from "@/icons/TypeScript.astro";
+
+const SKILLS_ICONS: Record<string, any> = {
+    AngularJs, CSharp, Canvas, Git, GitHub, Java, JavaScript, Mysql, NestJs, NodeJs, Oracle, Postgresql, Python, SqlServer, TypeScript
+}
+---
+
+<Section title="Skills">
+    <ul>
+        {skills.map(({name}) => {
+            const Icon = SKILLS_ICONS[name];
+
+            return <li>
+                 {Icon && <Icon />} <span>{name}</span>    
+            </li>
+        })}
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        border-radius: 6px;
+        background-color: #eee;
+        color: black;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+        user-select: none;
+        transition: background .3s ease;
+
+        &:hover {
+            background-color: #ddd;
+        }
+    }
+</style>

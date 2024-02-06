@@ -1,0 +1,68 @@
+---
+import { work } from "@/cv";
+import Section from "@/components/Section.astro";
+
+const formatter = new Intl.DateTimeFormat("es-PY", {month: "short", year: "numeric"});
+---
+
+<Section title="Work Experience">
+    <ul> 
+        {work.map(({name, startDate, endDate, position, summary}) => {
+            const start = formatter.format(new Date(startDate));
+            const end = endDate !== null ? formatter.format(new Date(endDate)) : "Actual";
+            const years = `${start} — ${end}`;
+
+            return <li>
+                <article>
+                    <header>
+                        <div>
+                            <h3>{name}</h3>
+                            <h4>{position}</h4>
+                        </div>
+                        <time>{years}</time>
+                    </header>
+                    <footer>
+                        <p>{summary}</p>
+                    </footer>
+                </article>
+            </li>
+        })}
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    article h3 {
+        color: #111;
+        font-weight: 500;
+    }
+
+    article h4 {
+        color: #222;
+        font-weight: 400;
+    }
+
+    header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 4px;
+    }
+
+    time {
+        color: #555;
+        font-size: 0.85rem;
+        text-wrap: pretty;
+    }
+
+    @media (width <= 700px) {
+        time {
+            text-align: right;
+        }
+    }
+</style>
